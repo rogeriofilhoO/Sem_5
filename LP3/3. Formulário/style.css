@@ -11,6 +11,8 @@ select{width: 103%;}
 
 .barra{width: 100%; background-color: aquamarine; height: 30px; margin-bottom: 50px; border: 2px solid white; border-bottom-right-radius : 10px; border-bottom-left-radius : 10px;}
 
-button{font-size: 18px; background-color: #4e5c46; color:#bcaf98; border: solid 1px ; border-radius: 10px; padding: 15px; margin: 10px;}
+button{font-size: 18px; background-color: #23695b; color:#ffffff; border: solid 1px ; border-radius: 10px; padding: 15px; margin: 10px;}
+
+button:hover{cursor: pointer; background-color: #35a08b}
 
 .btn{display: flex; margin: 10px; justify-content: center;}
