@@ -13,6 +13,6 @@ select{width: 103%;}
 
 button{font-size: 18px; background-color: #23695b; color:#ffffff; border: solid 1px ; border-radius: 10px; padding: 15px; margin: 10px;}
 
-button:hover{cursor: pointer; background-color: #35a08b}
+button:hover{cursor: pointer; background-color: #35a08b;}
 
 .btn{display: flex; margin: 10px; justify-content: center;}
