@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário e JSON</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form  id='Pedido' method="get">
+        <div class="container2">
+          <label for="">Prato</label><br />
+          <input id="prato" type="text" /><br />
+
+          <label for="">Quantidade</label><br />
+          <input id="qnt" type="number" /><br />
+
+          <label for="">Nome</label><br />
+          <input id="name" type="text" required/><br />
+
+          <label for="">Endereço</label><br />
+          <input id="end" type="text" required/><br />
+
+          <label for="">Forma de Pagamento</label><br />
+          <select name="formade" id="forma" required>
+            <option value="1">Cartão</option>
+            <option value="2">Dinheiro</option>
+          </select>
+          <br />
+          <div class="but">
+            <button id="save" type="button" onclick="saveData()">
+              Finalizar Pedido
+            </button>
+            <button id="cancel" type="button" onclick="deletarData()">
+              Cancelar Pedido
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
