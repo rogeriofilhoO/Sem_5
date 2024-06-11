@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: #a24eba;
+} 
+/* Aqui body fez com que o conteúdo da página ficasse centralizado e com um fundo roxo. */
+
+
+#foto-pokemon {
+    max-height: 60vh;
+}
+/* Aqui a imagem do pokemon ficou com uma altura máxima de 60% da altura da tela. */
+
+#nome-pokemon {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+/* Aqui o nome do pokemon ficou com um tamanho de fonte de 2em e com todas as letras em maiúsculo. */

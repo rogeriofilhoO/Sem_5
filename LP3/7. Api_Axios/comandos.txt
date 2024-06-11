@@ -1,0 +1,29 @@
+Crie pasta/diretorio para projeto:
+mkdir 7.Api_Axios
+cd 7.Api_Axios
+
+Inicialize o projeto Node.js:
+
+npm init -y
+
+Instale as bibliotecas express e axios:
+npm install express axios
+
+Crie arquivos na mão conforme abaixo:
+7.Api_Axios/
+├── public/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+├── server.js
+├── package.json
+└── .gitignore
+
+
+New-Item -Path .\server.js -ItemType File
+New-Item -Path .\public\index.html -ItemType File
+New-Item -Path .\public\styles.css -ItemType File
+New-Item -Path .\public\script.js -ItemType File
+
+Vamos consumir essa json:
+https://jsonplaceholder.typicode.com/posts

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furmalario</title>
+ <!-- Adiciona o CSS do Bootstrap -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <!-- bootstrap é uma biblioteca de código aberto que contém vários componentes de interface do usuário, como formulários, botões, modais, etc. -->
+ <style>
+     .container {
+         margin-top: 20px;
+     }
+     form {
+         padding: 20px;
+         border: 1px solid #cccccc;
+         border-radius: 5px;
+     }
+     input, label {
+         margin-top: 10px;
+     }
+ </style>
+
+</head>
+<body>
+    <div class="container">
+        <form action="resposta.js" method="post">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-column"
+                name="nome" id="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="idade">Idade:</label>
+                <input type="text" class="form-column"
+                name="idade" id="idade" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" class="form-control" 
+                name="senha" id="senha" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmaSenha">Confirma Senha:</label>
+                <input type="password" class="form-control"
+                 name="confirmaSenha" id="confirmaSenha" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+    
+</body>
+</html>
