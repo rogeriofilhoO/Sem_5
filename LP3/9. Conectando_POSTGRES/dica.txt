@@ -1,0 +1,5 @@
+Inicializa o projeto
+npm init
+
+baixar a biblioteca para conectar ao postgres
+npm install pg
