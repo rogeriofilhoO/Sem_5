@@ -28,3 +28,37 @@ db.query('SELECT * FROM veiculo', (err, result) => {
     }
 });
 
+
+// Inserir dados no banco de dados
+db.query('Insert into placa (placa, marca, modelo, ano) values (2345, FIAT, UNO, 2010)', 
+    (err, result) => {
+        if (err) {
+            console.log("Erro na inserção");
+        } else {
+            console.log("Inserido com sucesso");
+        }
+    }
+);
+
+// Atualizar dados no banco de dados
+db.query('Update veiculo set modelo = Palio where palca = 2345',
+    (err, result) => {
+        if(err) {
+            console.log('Erro na atualização');
+        } else {
+            console.log('Atualizado com sucesso');
+        }
+    }
+);
+
+// Deletar dados no banco de dados
+db.query('Delete from veiculo where placa = 2345',
+    (err, result) => {
+        if(err) {
+            console.log('Erro na atualização');
+        } else {
+            console.log('Deletado com sucesso');
+        }
+    }
+);
+
