@@ -1,0 +1,5 @@
+para inciar o projeto
+npm init -y
+
+instalar as dependências
+npm install express pg cors

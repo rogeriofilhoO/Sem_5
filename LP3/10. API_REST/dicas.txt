@@ -1,0 +1,15 @@
+Passos:
+Configurar o ambiente Node.js
+Criar a conexão com o PostgresSQL
+Criar a API RESTful com Express
+Criar a página web para consumir a API
+
+1.Inicializar o projeto
+npm init -y
+
+2. Instalar ass dependencias
+npm install express pg cors
+// pg é PostgresSQL, cors é para permitir requisições de outros dominios
+
+para rodar o projeto
+node server.js
