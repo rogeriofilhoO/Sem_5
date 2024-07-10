@@ -1,6 +1,6 @@
 async function fetchData() {
     try{
-        const response = await fetch('https://localhost:3000/api/data');
+        const response = await fetch('https://localhost:3000/api/veiculos');
         const data = await response.json();
 
         const dataList = document.getElementById('data-list');
